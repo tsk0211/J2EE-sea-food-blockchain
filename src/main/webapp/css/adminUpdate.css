@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+/* Table styles */
+.mainTable {
+  display: table;
+  width: 90%;
+  height: 50vh;
+  border: 4px solid #000000;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  overflow: scroll;
+}
+
+.tableTitle {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Poppins", "Roboto Slab", consolas, sans-serif, serif;
+}
+
+.mainTable thead th, .mainTable thead td {
+	border: 2px solid #000000;
+    padding: 8px;
+    min-width: 100px;
+    max-height: 1.5rem;
+    font-family: "Poppins", sans-serif, serif;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.mainTable thead th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tableBody tr {
+	border: 2px solid #000000;
+}
+
+.mainTable tbody td {
+    padding: 2vw;
+    min-width: 4rem;
+    max-height: 2rem;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+
+
+/* Alternating row colors */
+.tableBody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Button styles */
+.buttonsDiv, .choiceBox {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.buttons, .choice {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reject {
+	background-color: #FF0000FF;
+}
+
+.buttons:hover {
+  background-color: #45a049;
+}
+
+
+.mainDiv {
+	margin-top: 15vh;
+	max-height: 70vh;
+	overflow-y: hidden;
+}
+
+.tableDiv {
+	display: flex;
+	width: 90vw;
+	height: 50vh;
+	overflow: hidden;
+	margin: auto;
+}
+
+.tableDiv:hover {
+	overflow: scroll;
+}
+
+.tableDiv:hover .tableHead {
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+
+.tableDiv::-webkit-scrollbar {
+    width: 0.75vw;
+    border-radius: 5px;
+}
+
+.tableDiv::-webkit-scrollbar-button {
+    display: none;
+}
+
+.tableDiv::-webkit-scrollbar-track {
+    background-color: #27282255;
+    border: 1px solid #272822FF;
+    padding: 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+.tableDiv::-webkit-scrollbar-thumb {
+    width: 0.8vw;
+    background-color: #00000056;
+    border-radius: 25px;
+}
+
+.tableDiv::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.625);
+}
+
+.priceTag {
+	width: 1.8rem;
+	border: none;
+	font-size: 1rem;
+	font-weight: 500;
+	background-color: transparent;
+}
+
+
+
+
+
+

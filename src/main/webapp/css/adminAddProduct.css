@@ -1,0 +1,91 @@
+.contentDiv {
+    width: 81vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+    padding: 20px;
+}
+
+.contentDiv h2 {
+    text-align: center;
+    margin-bottom: 6vh;
+    font-family: "Roboto Slab", "Poppins", sans-serif, serif;
+}
+
+.productForm {
+    display: flex;
+    gap: 2vw;
+}
+
+.partDiv {
+    width: 25vw;
+    justify-content: space-between;
+}
+
+.productItem {
+    margin-bottom: 20px;
+}
+
+.productItem label {
+    display: block;
+    font-family: "Poppins", sans-serif, serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.productItem input[type="date"],
+.productItem input[type="text"],
+.productItem input[type="number"],
+.productItem textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.productItem input[type="number"] {
+    appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.productItem textarea {
+    height: 100px;
+}
+
+.productItem::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.submit-btn {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.qty {
+	display: inline;
+}
+.max_qty {
+	position: relative;
+	float: right;
+	display: flex;
+}

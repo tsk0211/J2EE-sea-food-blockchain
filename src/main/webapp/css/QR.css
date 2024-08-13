@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Style for drag and drop area */
+#dropArea {
+    width: 80%;
+    border: 2px dashed #050505e2;
+    border-radius: 10px;
+    padding: 8vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 10vh auto;
+}
+
+/* Style for uploaded image */
+#uploadedImage {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 4vh;
+    height: auto;
+}
+
+.imgClose {
+    display: none;
+}
+
+.imgOpen {
+    display: flex;
+}
+
+.sbt-btn {
+    margin: auto;
+    padding: 20px;
+    font-family: "Poppins", consolas, sans-serif, serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+form {
+    text-align: center;
+}
